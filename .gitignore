@@ -1,0 +1,12 @@
+# IGNORE EDITOR STUFF!
+*.swp
+.vscode
+
+# IGNORE MAC STUFF!
+.DS_Store
+
+# IGNORE NODE STUFF!
+node_modules
+
+# IGNORE SECRETS!
+config.js
