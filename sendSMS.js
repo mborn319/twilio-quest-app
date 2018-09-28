@@ -1,3 +1,4 @@
+var config = require('./config.js');
 var twilioClient = require('./twilioClient');
 
 var date = new Date();
@@ -8,5 +9,5 @@ var body = `Greetings! The current time is: ${dateString} ${timeString} ${twilio
 client.messages.create({
   body: body,
   to: '+12092104311',
-  from: '+13156403720'
+  from: config.TWILIO_PHONE_NUMBER
 });

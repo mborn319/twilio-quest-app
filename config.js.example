@@ -1,4 +1,5 @@
 module.exports = {
 	TWILIO_ACCOUNT_SID: "retrieve_via:https://www.twilio.com/console",
-	TWILIO_AUTH_TOKEN: "retrieve_via_https://www.twilio.com/console"
+	TWILIO_AUTH_TOKEN: "retrieve_via_https://www.twilio.com/console",
+	TWILIO_PHONE_NUMBER: "retrieve_via:https://www.twilio.com/console/phone-numbers/incoming"
 };
